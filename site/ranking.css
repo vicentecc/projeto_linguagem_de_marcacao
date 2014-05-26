@@ -1,0 +1,60 @@
+*{
+margin: 0;
+padding: 0;
+font-family: ciclefina;
+}
+/******************************* MENU ***************************************/
+#conteiner{width: 100%;  background-color: #001428;}
+#globalmenu{width: 100%; height: 160px; background-color:#001428; float: left;-webkit-box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);-moz-box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);}
+#menup{width:960px; height: 160px; background-color:#001428; margin: 0 auto;overflow:hidden;}
+#logomp{width:227px; height: 160px; float:left; background-color:#001428; padding: 0px 20px;} 
+#imglogomp{margin-top:13.5px;float: left;}
+#linkmp ul {padding:0px; margin:0px; background-color:#001428; list-style:none; font-size: 20px;}
+#linkmp ul li { display: inline-block; }
+#linkmp ul li a {padding: 70px 27px; display: inline-block; background-color:#001428; color: #fff; text-decoration: none; border-bottom:none; transition-duration: 0.7s; -webkit-transition: 0.7s; -moz-transition: 0.7s; -o-transition: 0.7s;}
+#linkmp ul li a:hover {color: #2ECC71;border-bottom:none; background-color: rgba(191, 223, 255, 0.1); transition-duration: 0.7s; -webkit-transition: 0.7s; -moz-transition: 0.7s; -o-transition: 0.7s;}
+.btnentrarmp{border: 0px; border-style: solid; border-color: #2ECC71; border-top: none; border-bottom: none;}
+/******************************* BANNER ***************************************/
+#globalbanner{width: 100%; height: 300px; overflow:hidden; background:  #73DFA0 /* Old browsers */background: -moz-radial-gradient(center, ellipse cover, #D6F5E4 0%, #2ecc71 100%); /* FF3.6+ */background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#D6F5E4), color-stop(100%,#73DFA0)); /* Chrome,Safari4+ */background: -webkit-radial-gradient(center, ellipse cover, #D6F5E4 0%,#73DFA0 100%); /* Chrome10+,Safari5.1+ */background: -o-radial-gradient(center, ellipse cover, #D6F5E4 0%,#73DFA0 100%); /* Opera 12+ */background: -ms-radial-gradient(center, ellipse cover, #D6F5E4 0%,#73DFA0 100%); /* IE10+ */background: radial-gradient(ellipse at center, #D6F5E4 0%,#73DFA0 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97e8b9', endColorstr='#2ecc71',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+#contebanner{width: 960px; height: 300px; margin: 0 auto; background-image: url(img/folha.png); background-repeat: no-repeat; background-position: center top;}
+#imgmudabanner{padding-top: 40px; padding-right: 38px; margin-left: 30px; float: left;}
+#titulobanner{width:450px; height: 100px; float: left; margin-top: 12%;}
+.titulob1 {font-size: 30px;  color: #003F30; font-family: ciclesemi;}
+.titulob2{font-size: 20px; color: #444444;}
+.criarcontb a { padding-top: 20px; padding-left:14px; padding-right: 15px; margin-top: 12%; margin-left: 40px; font-size: 40px; background-color: rgba(046, 204, 113, 0.6); padding-bottom:19px; display: inline-block; color: #fff; text-decoration: none; border: 1px; border-style: solid; border-color: #fff; transition-duration: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -o-transition: 0.5s;}
+.criarcontb a:hover{ background-color: rgba(000, 020, 040, 0.6); border-color: #2ECC71; transition-duration: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -o-transition: 0.5s;}
+/******************************* CONTEUDO ***************************************/
+#globalconteudo{width: 100%; height: 500px; background-color:#EFFCF4;}
+#conteudo{width:960px; height: 500px; background-color:#EFFCF4; margin: 0 auto;}
+.tituloc1{font-size: 40px; color: #2DCC71; padding-top: 15px; padding-bottom: 15px; text-align: center;}
+/******************************* TABELA ***************************************/
+table { float: left; margin-left: 100px; border-spacing: 0px; border-style:none; font-size: 25px;}
+/*titulo*/
+.titab {font-family: ciclesemi; text-align: center; border: 0px; border-spacing: 0px; font-size: 24px; color: #fff; border-style: solid; border-spacing: 0px;padding: 8px 20px 8px 20px;background-color: #2C3E50}
+/*linhas*/
+.linha{padding: 5px 15px 5px 15px; text-align: center; background-color: #ADEDC9; font-size: 20px; color: #219251}
+/*coluna do meio*/
+#linhameio{color: #999; background-color: #CBF3DC;}
+/*rodapé*/
+.tro {text-align: center; border: 0px; border-spacing: 0px; font-size: 1px; color: #001428; border-style: solid; border-spacing: 0px;padding: 2px 2px 2px 2px;background-color: #001428}
+/******************************* RODAPÉ ***************************************/
+#footerglobal{width: 100%; height: 100px; background-color:#2C3E50;}
+#footer{width:960px; height: 100px; background-color:#2C3E50; margin: 0 auto;}
+#socialmidia{width:180px; height: 40px; float: left; background-color:#2C3E50; padding-top: 15px; margin-left: 35px;}
+#face{margin-right: 4px;} #insta{margin-right: 4px;}
+#corporit{color: #BFFFBF; float: left; padding-top: 45px; margin-left:67px; overflow:hidden;}
+#email{color: #FFF; float: right; padding-top: 45px; margin-right: 58px;}
+/* caracteriticas gerais dos incones das redes sociais */
+.social { list-style:none; margin:20px auto; width:180px; }
+.social li { display:inline; float:left; background-repeat:no-repeat; }
+.social li a { display:block; width:35px; height:35px; padding-right:10px; position:relative; text-decoration:none; }
+.social li a strong { font-weight:normal; position:absolute; left:30px; top:-1px; color:#fff; padding:3px; z-index:9999;text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(022, 032, 041, 0.7); -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+li.facebook { background-image:url("img/smfacebook.png"); }
+li.twitter { background-image:url("img/smtwitter.png"); }
+li.insta { background-image:url("img/sminsta.png"); }
+/* efeito dos icones da rede social - CSS3 */
+#css3:hover li { opacity:0.2; }
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;-moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;-webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;-moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-10px; }

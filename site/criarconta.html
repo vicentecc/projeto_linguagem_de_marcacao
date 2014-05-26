@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="fonte.css">
+	<link rel="stylesheet" href="criarconta.css">
+	<link rel="icon" type="image/png" href="img/icone.png" />
+	<title>Plante online - Criar conta</title>
+</head>
+<!-- ************************************ PAGINA CRIAR CONTA *********************** -->
+<body>
+	<div id="conteiner">
+		<!-- ************************************ CABEÇARIO *********************** -->
+		<div id="gcabecario">
+			<div id="cabecario"><br>
+				<div id="imglogocc"><a href="index.html"><img src="img/logocc.png" alt=""></a></div><br>
+				<p class="titlecc1">Criar Conta</p>
+			</div>
+		</div>
+		<!-- ************ FORMULARIO (esta dividido em duas divs) *********************** -->
+		<div id="gformulario">
+			<div id="formulario">
+			<!--div cadastro pessoal -->
+					<div class="divcc"> 
+					<table border="0">
+						<form action="enviar.php" method="post">
+							<tr>
+								<td class="nome"> Email:</td>
+								<td><input name="email" type="text" size="26"></td>
+							</tr>
+							<tr>
+								<td class="nome">Senha:</td>
+								<td><input name="senha" type="password" size="8"n></td>
+							</tr>
+							<tr>
+								<td class="nome">Nome:</td>
+								<td><input name="nome" type="text" size="20"></td>
+							</tr>
+							<tr>
+								<td class="nome">Sobre nome:</td>
+								<td><input name="sobrenome" type="text" size="20"></td>
+							</tr>
+							<tr>
+								<td class="nome">Sexo:</td>
+								<td>Masculino <input type="radio" name="sex" value="male" size="30">
+									Feminino <input type="radio" name="sex" value="female" size="30">
+								</td>
+							</tr>
+							<tr>
+								<td class="nome">Data nascimento:</td>
+								<td><input name="dtnascimento" type="text" size="11"></td>
+							</tr>
+							<tr>
+								<td class="nome">Cpf:</td>
+								<td><input name="cpf" type="text" size="11"></td>
+							</tr>
+						</form>
+					</table>
+				</div>
+				<!--div cadastro endereço -->
+				<div class="divcc">
+					<table border="0" id="tabend">
+						<form action="enviar.php" method="post">
+							<tr>
+								<td class="nome">Estado:</td>
+								<td><SELECT>
+								<OPTION Value="0"></OPTION>
+								<OPTION Value="pe">PE</OPTION>
+								<OPTION Value="pb">PB</OPTION>
+								<OPTION Value="bh">BH</OPTION>
+								<OPTION Value="rn">RN</OPTION>
+								<OPTION Value="df">DF</OPTION>
+								</SELECT></td>
+							</tr>
+							<tr>
+								<td class="nome">Cidade:</td>
+								<td><input name="cpf" type="text" size="20"></td>
+							</tr>
+							<tr>
+								<td class="nome">Cep:</td>
+								<td><input name="cep" type="text" size="9"></td>
+							</tr>
+							<tr>
+								<td class="nome">Bairro:</td>
+								<td><input name="bairro" type="text" size="20"></td>
+							</tr>
+							<tr>
+								<td class="nome">Rua:</td>
+								<td><input name="rua" type="text" size="20"></td>
+							</tr>
+							<tr>
+								<td class="nome">Numero:</td>
+								<td><input name="numero" type="text" size="5"></td>
+							</tr>
+						</form>
+					</table>
+				</div>
+				<!--div botão enviar -->
+				<div id="divbtnenv">
+					<table border="0">
+						<form action="enviar.php" method="post">
+						<INPUT TYPE="submit" VALUE="Criar">
+						</form>
+					</table>
+				</div>
+		</div>
+	</div>
+</body>
+</html>

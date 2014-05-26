@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+font-family: ciclefina;
+}
+/******************************* MENU ***************************************/
+#conteiner{width: 100%;  background-color: #444444;}
+#globalmenu{width: 100%; height: 160px; background-color:#444444; float: left;-webkit-box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);-moz-box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);box-shadow: 0px -1px 22px 5px rgba(0, 0, 0, 0.76);}
+#menup{width:960px; height: 160px; background-color:#444444; margin: 0 auto;overflow:hidden;}
+#logomp{width:227px; height: 160px; float:left; background-color:#444444; padding: 0px 20px;} 
+#imglogomp{margin-top:13.5px;float: left;}
+#linkmp ul {padding:0px; margin:0px; background-color:#444444; list-style:none; font-size: 20px;}
+#linkmp ul li { display: inline-block; }
+#linkmp ul li a {padding: 70px 27px; display: inline-block; background-color:#444444; color: #fff; text-decoration: none; border-bottom:none; transition-duration: 0.7s; -webkit-transition: 0.7s; -moz-transition: 0.7s; -o-transition: 0.7s;}
+#linkmp ul li a:hover {color: #2ECC71;border-bottom:none; background-color: rgba(051, 051, 051, 0.1); transition-duration: 0.7s; -webkit-transition: 0.7s; -moz-transition: 0.7s; -o-transition: 0.7s;}
+.btnentrarmp{border: 0px; border-style: solid; border-color: #2ECC71; border-top: none; border-bottom: none;}
+
+/******************************* CONTEUDO ***************************************/
+#globalconteudo{width: 100%; height: 700px; background-color:#EFFCF4; background-image: url(img/seca.jpg); background-size: 100% 700px;}
+#conteudo{width:960px; height: 700px; margin: 0 auto;}
+.tituloc1{font-size: 100px; color: #FF2626; padding-top: 25%; font-family: ciclegordita; padding-bottom: 15px; text-align: center;}
+
+
+.imgarvq{padding-left: 400px;}
+
+/******************************* RODAPÉ ***************************************/
+#footerglobal{width: 100%; height: 100px; background-color:#444444;}
+#footer{width:960px; height: 100px; background-color:#444444; margin: 0 auto;}
+#socialmidia{width:180px; height: 40px; float: left; background-color:#444444; padding-top: 15px; margin-left: 35px;}
+#face{margin-right: 4px;} #insta{margin-right: 4px;}
+#corporit{color: #BFFFBF; float: left; padding-top: 45px; margin-left:67px; overflow:hidden;}
+#email{color: #FFF; float: right; padding-top: 45px; margin-right: 58px;}
+/* caracteriticas gerais dos incones das redes sociais */
+.social { list-style:none; margin:20px auto; width:180px; }
+.social li { display:inline; float:left; background-repeat:no-repeat; }
+.social li a { display:block; width:35px; height:35px; padding-right:10px; position:relative; text-decoration:none; }
+.social li a strong { font-weight:normal; position:absolute; left:30px; top:-1px; color:#fff; padding:3px; z-index:9999;text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(022, 032, 041, 0.7); -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);}
+li.facebook { background-image:url("img/smfacebook.png"); }
+li.twitter { background-image:url("img/smtwitter.png"); }
+li.insta { background-image:url("img/sminsta.png"); }
+/* efeito dos icones da rede social - CSS3 */
+#css3:hover li { opacity:0.2; }
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;-moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;-webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;-moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-10px; }
